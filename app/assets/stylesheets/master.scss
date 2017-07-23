@@ -32,3 +32,19 @@ body {
   font-family: 'nobileregular', sans-serif;
   font-size: 26px;
 }
+
+.pagination {
+   font-size: 22px;
+   box-shadow: 0px 1px 1px #6E6E6E;
+  .previous_page { background: white; color: #FF5C1C }
+  .previous_page.disabled { background: white; color: grey }
+  .current { background: white }
+  .next_page { background: white; color: #FF5C1C }
+  .next_page.disabled { background: white; color: grey }
+}
+
+.center-pagination {
+  margin-top: 15px;
+  width: 312px;
+  margin: 0 auto;
+}
