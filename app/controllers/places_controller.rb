@@ -28,6 +28,12 @@ class PlacesController < ApplicationController
     redirect_to root_url
   end
 
+  def destroy
+    @place = Place.find(params[:id])
+    @place.destroy
+    redirect_to root_url
+  end
+
 
   private
 
